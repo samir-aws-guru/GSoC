@@ -15,10 +15,10 @@ console.log("##################### \n");
 var person = new Person();
 
 var index = 1;
-while (index < 9) {
+while (index < 3) {
   person.id = index
-  person.firstName = "John" + index;
-  person.lastName = "Doe" + index;
+  person.firstName = "Aki" + index;
+  person.lastName = "Preda" + index;
 
   // console.log(person);
   person.addPerson({ id: person.id, firstName: person.firstName, lastName: person.lastName });
